@@ -524,6 +524,7 @@ img {
 .entry-title span {
   display: inline-block;
   position: relative;
+  font-size: 32px;
 }
 .section-title span:before,
 .entry-title span:before,
@@ -637,6 +638,9 @@ footer.entry-meta {
 footer.entry-meta a {
   color: #333333;
 }
+footer.entry-meta p {
+  font-size: 12px;
+}
 footer.entry-meta .meta-in {
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
@@ -651,6 +655,12 @@ footer.entry-meta .meta-in {
 .page-header .page-title {
   margin-top: 0;
   margin-bottom: 30px;
+}
+#footer p {
+  font-size: 12px;
+}
+#underfooter p {
+  font-size: 12px;
 }
 /*********************************************************************
 
