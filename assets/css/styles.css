@@ -1,5 +1,6 @@
 html {
   font-size: 100%;
+  scroll-behavior: smooth;
 }
 body {
   font-size: 16px;
@@ -150,12 +151,8 @@ body {
 **********************************************************************/
 p {
   line-height: 1.6em;
-  margin: 0 0 30px 0;
-}
-ul,
-ol {
-  line-height: 1.6em;
-  margin: 0 0 30px 0;
+  margin: 6px 0 6px 0;
+  font-size: 14px;
 }
 blockquote {
   padding: 10px 20px;
@@ -187,13 +184,15 @@ h2 {
   font-size: 2.25rem;
 }
 h3 {
-  font-size: 30px;
-  font-size: 1.875rem;
-  margin-top: 0;
+  font-size: 24px;
+  margin-top: 24px;
+  font-weight: bold;
+  color: #005CA1;
 }
 h4 {
-  font-size: 24px;
-  font-size: 1.5rem;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 18px; 
 }
 h5 {
   font-size: 20px;
@@ -803,4 +802,81 @@ footer.entry-meta .meta-in {
   .container {
     max-width: 1080px;
   }
+}
+
+.table {
+    color: #212529;
+    margin-bottom: 1rem;
+    width: 100%
+}
+
+.table td,.table th {
+    border-top: 1px solid #dee2e6;
+    padding: .5rem;
+    vertical-align: top
+}
+
+.table thead th {
+    border-bottom: 2px solid #dee2e6;
+    vertical-align: bottom
+}
+
+.table tbody+tbody {
+    border-top: 2px solid #dee2e6
+}
+
+.table .thead-dark th {
+    background-color: #343a40;
+    border-color: #454d55;
+    color: #fff
+}
+
+.table .thead-light th {
+    background-color: #e9ecef;
+    border-color: #dee2e6;
+    color: #495057
+}
+
+article.content table {
+    display: table;
+    overflow: auto
+}
+
+table thead {
+    background-color: #126f9a;
+    color: #fff;
+    text-transform: uppercase
+}
+
+table thead th {
+    border: none
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: none
+}
+
+table tbody tr:nth-child(2n) {
+    background-color: #f5f5f5
+}
+
+table tbody td {
+    border: none
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  font-size: 14px;
+}
+
+table td,
+table th {
+  padding: 7px;       /* space inside each cell */
+}
+
+.sidebar {
+  position: sticky;
+  top: 60px; /* adjust according to header height */
 }
